@@ -14,7 +14,7 @@
 * Overview - Global cloud service providers (CSPs), technologies and corresponding offerings
 
 === Objectives and exercises 
-_The student is able to describe cloud computing in own words and list examples for offerings, topologies and technologies. Includes ability to differentiate between different abstraction layers and knowledge how those layers and according technologies interact with each other. No exercises in this module (//TODO: "Cloud readiness validation, setup dev env")_
+_The student is able to describe cloud computing in own words and list examples for offerings, topologies and technologies. Includes ability to differentiate between different abstraction layers and knowledge how those layers and according technologies interact with each other. No exercises in this module_
 
 == Module: Spring Boot Introduction
 
