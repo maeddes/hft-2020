@@ -1,0 +1,54 @@
+= Overview
+
+:toc:
+
+[cloud-intro]
+
+== Module: Cloud Introduction (theory-block I)
+
+* What is Cloud Computing? Encounters in everyday life and history
+* Characteristic, advantages & challenges
+* Terminology - public, private, hybrid, dedicated
+* Abstraction layers - IaaS, PaaS, FaaS, SaaS
+* Overview - Hypervisors, virtual machines, containers and orchestration
+* Overview - Global cloud service providers (CSPs), technologies and corresponding offerings
+
+=== Objectives and exercises 
+_The student is able to describe cloud computing in own words and list examples for offerings, topologies and technologies. Includes ability to differentiate between different abstraction layers and knowledge how those layers and according technologies interact with each other. No exercises in this module (//TODO: "Cloud readiness validation, setup dev env")_
+
+== Module: Spring Boot Introduction
+
+* Background: Spring Framework - History & components
+* Spring <- -> Spring Boot
+* Spring Initializr (start.spring.io) & starter dependencies
+* Basic project structure (folders, configuration ..)
+* "Hello, World!" example explained
+* Basic logging and testing
+* Using Actuator
+
+=== Objectives and exercises
+_The student is able to build and configure an own Spring Boot application from scratch with the IDE of choice. The exercise is to build an own "Hello, World!" application that exposes various REST endpoints and is able to execute CRUD operations on the state of the application. Optional: Add logging and testing, configure Actuator._
+
+== Module: Containers
+
+* What are containers and how do they work
+* Containers vs. VMs 
+* History of containers and rise of Docker
+* Docker concepts: daemon, hub, dockerfile, CLI
+* Multi-container handling with docker-compose
+* Limitations and problems with containers
+
+=== Objectives and exercises
+_The student understands the concepts and use cases of container technology and is able to describe them. The first exercise is to pull sample images from an image registry (e.g. Docker Hub) and interact with them (run, expose port, execute shell, cleanup etc). After that the student can show how to build a custom image via Dockerfile and push it to a registry for others to access. Optional: Take the sample application from module "Spring Boot Intro", put it into a container image and run it._
+
+== Module: Persistence
+
+* Spring Data
+* Concept of entities and repositories
+* JPA and JDBC basics
+* H2, PostgeSQL, MySQL - configuration via Spring Boot
+* Running databases as Docker images
+* //TODO, Spring Data JDBC, SQL and noSQL examples
+
+=== Objectives and exercises
+_The student is able to build a Spring Boot application (or extend an existing one) with Spring Data configuration. The exercise is to create an application, which performs CRUD operations on a database backend. The database can either be in-memory (H2) or a (containerized) PostgreSQL. Optional: Provide a docker-compose file to stand up a multi-container environment with application and database._
