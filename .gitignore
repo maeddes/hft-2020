@@ -24,11 +24,11 @@ hs_err_pid*
 
 HELP.md
 **/target/
-!.mvn/wrapper/maven-wrapper.jar
+!**.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
-**.class
-**.jar
+**/**.class
+**/**.jar
 **.zip
 
 ### STS ###
