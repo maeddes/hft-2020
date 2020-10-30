@@ -5,6 +5,12 @@ Guides:
 
 https://spring.io/guides/gs/rest-service/
 
+https://www.baeldung.com/spring-pathvariable
+
+https://code.visualstudio.com/docs/java/java-tutorial
+
+https://gitpitch.com/Etone/spring-boot-logging#/
+
 Software:
 
 ### IDEs
@@ -15,13 +21,12 @@ Software:
 
 ### Tools
 
-- Postman
+- Postman (or any other HTTP Client)
 - Docker
-- VirtualBox
 
 ### CLI
 
-- curl
+- cURL
 - httpie
 - git
 
