@@ -1,0 +1,60 @@
+10003  cd hft2020
+10004  cp ~/Downloads/hello-world.zip .
+10005  cp ~/Downloads/hello-world-new.zip .
+10006  ls -ltr
+10007  unzip hello-world.zip
+10008  unzip hello-world-new.zip
+10009  cd hello-world
+10010  code .
+10011  mvn clean install
+10012  mvn spring-boot:run
+10013  cd ..
+10014  cd hello-world-new
+10015  ls -ltr
+10016  code .
+10017  cd ..
+10018  cd -
+10019  mvn spring-boot:run
+10020  code .
+10021  mvn spring-boot:run
+10022  tree
+10023  mvn clean install
+10024  tree
+10025  java -jar target/hello-world-new-0.0.1-SNAPSHOT.jar
+10026  mvn dependency:tree
+10027  cd ..
+10028  ls -ltr
+10029  git clone https://github.com/spring-guides/gs-rest-service.git\n\n
+10030  cd gs-rest-service
+10031  ls -ltr
+10032  cd initial
+10033  tree
+10034  cd ..
+10035  cd complete
+10036  tree
+10037  code .
+10039  cd ..
+10040  ls
+10041  cd hello-world-new
+10042  java -jar target/hello-world-new-0.0.1-SNAPSHOT.jar
+10043  mvn spring-boot:run
+10044  mvn -Dserver.port=8091 spring-boot:run
+10045  mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8091
+10046  export SERVER_PORT=8092
+10047  mvn spring-boot:run
+10048  mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8091
+10049  mvn spring-boot:run
+10050  cd ..
+10051  ls
+10052  cd gs-rest-service
+10053  code .
+10054  cd initial
+10055  mvn clean install
+10056  mvn spring-boot:run
+10057  mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8091
+10058  cd ..
+10059  ..
+10060  cd hello-world-new
+10061  mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8091
+
+
