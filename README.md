@@ -22,7 +22,7 @@ Software:
 ### Tools
 
 - Postman (or any other HTTP Client)
-- Docker
+- Docker Desktop https://www.docker.com/products/docker-desktop
 
 ### CLI
 
