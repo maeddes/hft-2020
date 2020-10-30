@@ -4,6 +4,7 @@ materials, links and sample code for cloud-native lecture, slides and recordings
 Guides:
 
 https://spring.io/guides/gs/rest-service/
+https://www.baeldung.com/spring-pathvariable
 
 Software:
 
