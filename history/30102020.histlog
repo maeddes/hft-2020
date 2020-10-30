@@ -1,0 +1,52 @@
+10108  git clone https://github.com/maeddes/hft-2020.git
+10109  cd hft-2020
+10110  ls
+10111  code .
+10112  ls
+10113  cd code
+10114  ls
+10115  cd hello-world-new
+10116  ls
+10117  mvn spring-boot:run
+10118  cd ..
+10119  rm -rf hft-2020
+10120  cd ..
+10121  cd hft-2020
+10122  ls -ltr
+10123  git check-ignore -n -v history
+10124  mv history hist
+10125  ls -ltr
+10126  cd hist
+10127  ls
+10128  mv 23102020.log 23102020.histlog
+10129  cd ..
+10130  mv hist history
+10131  ggit status
+10132  git status
+10133  git add history
+10134  ls -ltr
+10135  git commit -m "added history"
+10136  git push origin main
+10137  cd hello-world-new
+10138  ls
+10139  cd doe
+10140  cd code
+10141  cd hello-world-new
+10142  mvn clean install
+10143  mvn spring-boot:run
+10144  cat src/main/java/de/hftstuttgart/helloworldnew/HelloWorldNewApplication.java
+10145  cd ..
+10146  code .
+10147  cd code/hello-world-new
+10148  mvn spring-boot:run
+10149  mvn spring-boot:run -Dspring-boot.run.arguments=--logging.level.de.hftstuttgart=INFO
+10150  export LOGGING_LEVEL_DE_HFTSTUTTGART=TRACE
+10151  mvn spring-boot:run -Dspring-boot.run.arguments=--logging.level.de.hftstuttgart=INFO
+10152  mvn spring-boot:run
+10153  cd ..
+10154  git status
+10155  git add .
+10156  git commit -m "Lesson 03 - CRUD and Logging"
+10157  git push origin main
+10158  git pull
+10159  git push origin main
