@@ -15,13 +15,12 @@ Software:
 
 ### Tools
 
-- Postman
+- Postman (or any other HTTP Client)
 - Docker
-- VirtualBox
 
 ### CLI
 
-- curl
+- cURL
 - httpie
 - git
 
