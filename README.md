@@ -7,6 +7,8 @@ https://spring.io/guides/gs/rest-service/
 
 https://www.baeldung.com/spring-pathvariable
 
+https://code.visualstudio.com/docs/java/java-tutorial
+
 Software:
 
 ### IDEs
