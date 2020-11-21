@@ -1,0 +1,78 @@
+10004  cd hft-2020
+10005  ls -ltr
+10006  clear
+10007  ls -ltr
+10008  git pull
+10009  code .
+10010  docker
+10011  docker ps
+10012  clear
+10013  mvn clean package
+10014  ls
+10015  cd code
+10016  ls
+10017  cd hello-world-new
+10018  mvn clean package
+10019  ls target
+10020  ls -ltr target
+10021  ls
+10022  docker build -t maeddes/hellohft:v1 .
+10023  docker images
+10024  docker inspect maeddes/hellohft:v1
+10025  cat Dockerfile
+10026  docker images
+10027  dive maeddes/hellohft:v1
+10028  mvn spring-boot:run
+10029  mvn spring-boot:build-image
+10030  docker images
+10031  docker inspect hello-world-new:0.0.1-SNAPSHOT
+10032  dive hello-world-new:0.0.1-SNAPSHO[DT
+10033  dive hello-world-new:0.0.1-SNAPSHOT
+10034  mvn spring-boot:build-image
+10035  cat Dockerfile
+10036  mvn clean package
+10037  docker build -t maeddes/hellohft:v2 .
+10038  docker run -d -p 8090:8090 --name hello maeddes/hellohft:v2
+10039  docker run -d -p 8090:8090 --name hello2 maeddes/hellohft:v2
+10040  docker ps
+10041  docker ps -a
+10042  docker logs 96f
+10043  cat Dockerfile
+10044  docker imaghes
+10045  docker images
+10046  mvn spring-boot:build-image
+10047  docker run -d -p 8090:8090 --name hello3 hello-world-new:0.0.1-SNAPSHOT
+10048  docker logs -f 11d
+10049  mvn compile com.google.cloud.tools:jib-maven-plugin:2.6.0:dockerBuild
+10050  docker images
+10051  mvn compile com.google.cloud.tools:jib-maven-plugin:2.6.0:dockerBuild -Dimage=maeddes/hellohft:jib11
+10052  docker images
+10053  mvn spring-boot:build-image -Dspring-boot.build-image.imageName=maeddes/hellohft:paketo11
+10054  docker images
+10055  docker ps
+10056  mvn spring-boot:build-image -Dspring-boot.build-image.imageName=maeddes/hellohft:paketo11
+10057  mvn compile com.google.cloud.tools:jib-maven-plugin:2.6.0:dockerBuild -Dimage=maeddes/hellohft:jib11
+10058  docker login
+10059  mvn compile com.google.cloud.tools:jib-maven-plugin:2.6.0:build -Dimage=maeddes/hft2020:jib11
+10060  docker images
+10061  docker ps
+10062  docker login
+10063  java -version
+10064  export JAVA_HOME=$(/usr/libexec/java_home -v 11)
+10065  cd ..
+10066  cp ~/Downloads/hello-data.zip .
+10067  unzip hello-data.zip
+10068  mvn spring-boot:run
+10069  cd hello-data
+10070  mvn spring-boot:run
+10071  cd ..
+10072  cp ~/Downloads/hello-data.zip .
+10073  unzip hello-data.zip
+10074  mvn spring-boot:run
+10075  mvn clean package
+10076  ls
+10077  cd hello-data
+10078  mvn clean package
+10079  cd ..
+10080  cd hello-world-new
+10081  mvn clean package
