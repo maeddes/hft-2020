@@ -42,6 +42,12 @@ _The student is able to build and configure an own Spring Boot application from 
 * Add some basic "functionality" to make the service react to HTTP GET, POST, PUT and DELETE calls (e.g. modify an internal list)
 * Change the configuration to make the server run on port 8081 instead of 8080
 
+== Links
+
+* https://start.spring.io/
+* https://spring.io/guides/
+* https://www.baeldung.com/spring-boot/
+
 == Module: Containers
 
 * What are containers and how do they work
@@ -50,9 +56,18 @@ _The student is able to build and configure an own Spring Boot application from 
 * Docker concepts: daemon, hub, dockerfile, CLI
 * Multi-container handling with docker-compose
 * Limitations and problems with containers
+* Multiple container build options (Dockerfile, Buildpacks/Paketo/Jib)
 
 === Objectives and exercises
-_The student understands the concepts and use cases of container technology and is able to describe them. The first exercise is to pull sample images from an image registry (e.g. Docker Hub) and interact with them (run, expose port, execute shell, cleanup etc). After that the student can show how to build a custom image via Dockerfile and push it to a registry for others to access. Optional: Take the sample application from module "Spring Boot Intro", put it into a container image and run it._
+_The student understands the concepts and use cases of container technology and is able to describe them. The first exercise is to pull sample images from an image registry (e.g. Docker Hub) and interact with them (run, expose port, execute shell, cleanup etc). After that the student can show how to build a custom image via Dockerfile and push it to a registry for others to access. Take the sample application from module "Spring Boot Intro", put it into a container image and run it using a container build mechanism of your choice._
+
+== Links
+
+* https://hub.docker.com/
+* https://labs.play-with-docker.com/
+* https://github.com/wagoodman/dive
+* https://paketo.io/
+* https://github.com/GoogleContainerTools/jib
 
 == Module: Persistence
 
@@ -65,3 +80,10 @@ _The student understands the concepts and use cases of container technology and 
 
 === Objectives and exercises
 _The student is able to build a Spring Boot application (or extend an existing one) with Spring Data configuration. The exercise is to create an application, which performs CRUD operations on a database backend. The database can either be in-memory (H2) or a (containerized) PostgreSQL. Optional: Provide a docker-compose file to stand up a multi-container environment with application and database._
+
+== Links
+
+* https://spring.io/projects/spring-data
+* https://spring.io/guides/gs/accessing-data-jpa/
+* https://www.baeldung.com/spring-data-derived-queries
+
