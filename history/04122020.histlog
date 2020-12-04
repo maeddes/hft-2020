@@ -1,0 +1,103 @@
+9900  mvn spring-boot:run
+ 9901  http
+ 9902  curl localhost:8091
+ 9903  mvn spring-boot:run
+ 9904  curl localhost:8091
+ 9905  curl localhost:8091/test
+ 9906  curl localhost:8091/personalizedFromNowOn/dude
+ 9907  curl localhost:8091/strings
+ 9908  mvn spring-boot:run
+ 9909  curl localhost:8091/strings
+ 9910  mvn spring-boot:run
+ 9911  curl localhost:8091/strings
+ 9912  curl -X PUT localhost:8090/strings/one
+ 9913  curl -X PUT localhost:8091/strings/one
+ 9914  curl localhost:8091/strings
+ 9915  curl -X PUT localhost:8091/strings/two
+ 9916  curl -X PUT localhost:8091/strings/three
+ 9917  curl localhost:8091/strings
+ 9918  curl -X DELETE localhost:8091/strings/two
+ 9919  mvn spring-boot:run
+ 9920  curl localhost:8091/customers
+ 9921  curl -X PUT localhost:8091/customer/indiana/jones
+ 9922  curl localhost:8091/customers
+ 9923  curl -X PUT localhost:8091/customer/darth/vader
+ 9924  curl localhost:8091/customers
+ 9925  mvn spring-boot:run
+ 9926  curl localhost:8091/customers
+ 9927  curl -X PUT localhost:8091/customer/indiana/jones
+ 9928  curl -X PUT localhost:8091/customer/darth/vader
+ 9929  curl localhost:8091/customers
+ 9930  mvn spring-boot:run
+ 9931  curl localhost:8091/customers
+ 9932  mvn spring-boot:run
+ 9933  git add .
+ 9934  git commit -m "Cleaned up Rest Repos"
+ 9938  git push origin main
+ 9939  mvn spring-boot:run
+ 9940  docker run --name mypostgres -e POSTGRES_PASSWORD=mypassword -e POSTGRES_USER=myuser -e POSTGRES_DB=mydb postgres:latest
+ 9941  docker ps
+ 9942  docker run --name mypostgres -e POSTGRES_PASSWORD=mypassword -e POSTGRES_USER=myuser -e POSTGRES_DB=mydb -p 5432:5432 -d postgres
+ 9943  docker rm mypostgres
+ 9944  docker run --name mypostgres -e POSTGRES_PASSWORD=mypassword -e POSTGRES_USER=myuser -e POSTGRES_DB=mydb -p 5432:5432 -d postgres
+ 9945  docker logs 32c
+ 9946  docker ps
+ 9947  exit
+ 9948  mvn spring-boot:run
+ 9949  curl localhost:8091/strings
+ 9950  curl localhost:8091/customers
+ 9951  curl -X PUT localhost:8091/customer/indiana/jones
+ 9952  curl -X PUT localhost:8091/customer/darth/vader
+ 9953  curl localhost:8091/customers
+ 9954  docker ps
+ 9955  mvn spring-boot:run
+ 9956  curl localhost:8091/customers
+ 9957  mvn spring-boot:run
+ 9958  curl -X PUT localhost:8091/customer/darth/vader
+ 9959  curl -X PUT localhost:8091/customer/indiana/jones
+ 9960  curl localhost:8091/customers
+ 9961  mvn spring-boot:run
+ 9962  curl localhost:8091/customers
+ 9963  mvn spring-boot:run
+ 9964  curl localhost:8091/customers
+ 9965  curl -X PUT localhost:8091/customer/leia/organa
+ 9966  curl localhost:8091/customers
+ 9967  SPRING_PROFILES_ACTIVE=h2 mvn spring-boot:run
+ 9968  SPRING_PROFILES_ACTIVE=postgres mvn spring-boot:run
+ 9969  curl localhost:8091/customers
+ 9970  SPRING_PROFILES_ACTIVE=h2 mvn spring-boot:run
+ 9971  curl localhost:8091/customers
+ 9972  curl -X PUT localhost:8091/customer/leia/organa
+ 9973  curl localhost:8091/customers
+ 9974  mvn spring-boot:build-image -Dspring-boot.build-image.imageName=hello-world/image:v0.1
+ 9975  docker ps
+ 9976  docker images
+ 9977  docker tag hello-world/image:v0.1 maeddes/customer:v0.1
+ 9978  docker push maeddes/customer:v1
+ 9979  docker push maeddes/customer:v0.1
+ 9980  curl localhost:8091/customers
+ 9981  docker ps
+ 9982  docker network create mynetwork
+ 9983  docker network connect mynetwork mypostgres
+ 9984  docker run --name customerapp -d -p 8091:8091 -e SPRING_PROFILES_ACTIVE=postgres -e SPRING_DATASOURCE_URL=jdbc:postgresql://mypostgres:5432/mydb maeddes/customer:v1
+ 9985  docker images
+ 9986  docker run --name customerapp -d -p 8091:8091 -e SPRING_PROFILES_ACTIVE=postgres -e SPRING_DATASOURCE_URL=jdbc:postgresql://mypostgres:5432/mydb maeddes/customer:v0.1
+ 9987  docker logs c32
+ 9988  docker logs -f c32
+ 9989  docker ps
+ 9990  docker ps -a
+ 9991  docker rm c32
+ 9992  docker run -h
+ 9993  docker run --help
+ 9994  docker networks
+ 9995  docker network ls
+ 9996  exit
+ 9997  docker run --name customerapp -d -p 8091:8091 -e SPRING_PROFILES_ACTIVE=postgres -e SPRING_DATASOURCE_URL=jdbc:postgresql://mypostgres:5432/mydb --network=mynetwork maeddes/customer:v0.1
+ 9998  docker logs -f 04b
+ 9999  curl localhost:8091/customers
+10000  exit
+10001  cd git
+10002  cd wip
+10003  ls
+10004  cd hft-2020
+10005  ls
