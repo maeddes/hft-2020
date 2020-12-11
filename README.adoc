@@ -76,7 +76,6 @@ _The student understands the concepts and use cases of container technology and 
 * JPA and JDBC basics
 * H2, PostgeSQL, MySQL - configuration via Spring Boot
 * Running databases as Docker images
-* //TODO, Spring Data JDBC, SQL and noSQL examples
 
 === Objectives and exercises
 _The student is able to build a Spring Boot application (or extend an existing one) with Spring Data configuration. The exercise is to create an application, which performs CRUD operations on a database backend. The database can either be in-memory (H2) or a (containerized) PostgreSQL. Optional: Provide a docker-compose file to stand up a multi-container environment with application and database._
@@ -86,4 +85,14 @@ _The student is able to build a Spring Boot application (or extend an existing o
 * https://spring.io/projects/spring-data
 * https://spring.io/guides/gs/accessing-data-jpa/
 * https://www.baeldung.com/spring-data-derived-queries
+
+== Module: Configuration & Profiles
+
+* Spring profiles
+* Various possibilities of external configuration in Spring (Boot)
+* Order of configuration options
+* //TODO move config server over here from Spring Cloud Services
+
+=== Objectives and exercises
+_The student is able to build a Spring Boot application with various configuration profiles and knows how to set the desired one at runtime. The exercise is to extend the existing persistence application and provide different persistence backend for different purposes, e.g. set an in-memory database for development and test purposes and a containerized one for production._
 
