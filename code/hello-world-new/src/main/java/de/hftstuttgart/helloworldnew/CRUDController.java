@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -23,12 +24,19 @@ public class CRUDController {
 		return listOfStrings.toString();
 	}
 
-	@PutMapping("/strings/{newString}")
+	@PostMapping("/strings/{newString}")
 	public String addNewString(@PathVariable String newString){
 
         logger.info("adding {}",newString);
 		listOfStrings.add(newString);
 		return newString+" added";
+	}
+	
+	@PutMapping("/strings/{oldString}/{newString}")
+	public String updateString(@PathVariable String newString){
+
+		// TODO add code :)
+		return "";
     }
     
     @DeleteMapping("/strings/{stringToDelete}")
