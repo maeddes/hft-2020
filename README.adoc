@@ -97,7 +97,28 @@ _The student is able to build a Spring Boot application (or extend an existing o
 === Objectives and exercises
 _The student is able to build a Spring Boot application with various configuration profiles and knows how to set the desired one. It is also required to understand how Spring Boot will prioritize between them, e.g. ("Who wins if multiple are specified?") and what the advantages and drawbacks of them are. The exercise is to extend the existing persistence application and provide different persistence backend for different purposes, e.g. set an in-memory database for development and test purposes and a containerized one for production._
 
-== Module: Communication between services
+== Module: Communication & Messaging
 
-* 
+* Asynchronous and synchronous communication
+* Queues and topics, PTP and Pub-Sub
+* Synchronous communication with RestTemplate and Feign
+* Smart endpoints and dumb pipes vs. ESB
+* Asynchronous communication examples in Spring Boot with Redis, RabbitMQ and Apache Kafka
+* Spring Cloud Stream
+
+=== Objectives and exercises
+_The student understands the differences between asynchronous and synchronous communication in distributed systems and can explain it in own words. The exercise is to implement asynchronous communication between two systems using either RabbitMQ, Redis or Kafka._
+
+== Module: Cloud-native software development & Microservices (theory-block II)
+
+* CAP Theorem
+* Conway's Law
+* Fallacies of distributed computing
+* Domain-Driven Design basics
+* 12-factor application
+* Evolution of applications and deployments: Monolithic -> Service-Oriented Architecture -> Microservices
+* Introduction to serverless and FaaS terminology
+
+=== Objectives and exercises
+_The student knows about the evolution of distributed systems and the drivers towards state-of-the-art implementation and deployment. She/he can explain the underlying concepts and theories and put it into practical context. No dedicated exercises for this module. Recap of basics: Spring Boot, Docker, configuration, persistence and messaging._
 
