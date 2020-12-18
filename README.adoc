@@ -13,7 +13,7 @@
 * Overview - Hypervisors, virtual machines, containers and orchestration
 * Overview - Global cloud service providers (CSPs), technologies and corresponding offerings
 
-=== Objectives and exercises 
+=== Objectives and exercises
 _The student is able to describe cloud computing in own words and list examples for offerings, topologies and technologies. Includes ability to differentiate between different abstraction layers and knowledge how those layers and according technologies interact with each other. No exercises in this module_
 
 === Links
@@ -42,7 +42,7 @@ _The student is able to build and configure an own Spring Boot application from 
 * Add some basic "functionality" to make the service react to HTTP GET, POST, PUT and DELETE calls (e.g. modify an internal list)
 * Change the configuration to make the server run on port 8081 instead of 8080
 
-== Links
+=== Links
 
 * https://start.spring.io/
 * https://spring.io/guides/
@@ -61,7 +61,7 @@ _The student is able to build and configure an own Spring Boot application from 
 === Objectives and exercises
 _The student understands the concepts and use cases of container technology and is able to describe them. The first exercise is to pull sample images from an image registry (e.g. Docker Hub) and interact with them (run, expose port, execute shell, cleanup etc). After that the student can show how to build a custom image via Dockerfile and push it to a registry for others to access. Take the sample application from module "Spring Boot Intro", put it into a container image and run it using a container build mechanism of your choice._
 
-== Links
+=== Links
 
 * https://hub.docker.com/
 * https://labs.play-with-docker.com/
@@ -80,7 +80,7 @@ _The student understands the concepts and use cases of container technology and 
 === Objectives and exercises
 _The student is able to build a Spring Boot application (or extend an existing one) with Spring Data configuration. The exercise is to create an application, which performs CRUD operations on a database backend. The database can either be in-memory (H2) or a (containerized) PostgreSQL. Optional: Provide a docker-compose file to stand up a multi-container environment with application and database._
 
-== Links
+=== Links
 
 * https://spring.io/projects/spring-data
 * https://spring.io/guides/gs/accessing-data-jpa/
@@ -97,9 +97,12 @@ _The student is able to build a Spring Boot application (or extend an existing o
 === Objectives and exercises
 _The student is able to build a Spring Boot application with various configuration profiles and knows how to set the desired one. It is also required to understand how Spring Boot will prioritize between them, e.g. ("Who wins if multiple are specified?") and what the advantages and drawbacks of them are. The exercise is to extend the existing persistence application and provide different persistence backend for different purposes, e.g. set an in-memory database for development and test purposes and a containerized one for production._
 
-== Links:
+=== Links:
 
-*
+* https://docs.spring.io/spring-boot/docs/1.0.1.RELEASE/reference/html/boot-features-external-config.html
+* https://docs.spring.io/spring-boot/docs/1.2.3.RELEASE/reference/html/boot-features-external-config.html
+* https://www.baeldung.com/spring-value-annotation
+* https://spring.io/guides/gs/centralized-configuration/
 
 == Module: Synchronous Communication, API & REST
 
@@ -111,7 +114,7 @@ _The student is able to build a Spring Boot application with various configurati
 === Objectives and exercises
 _The student understands the concepts of an API and synchronous communication in distributed systems and can explain it in own words. The exercise is to implement a CRUD application client to work with a REST API using either RestTemplate (or Feign)._
 
-== Links
+=== Links
 
 * https://spring.io/guides/gs/consuming-rest/
 * https://www.baeldung.com/rest-template
