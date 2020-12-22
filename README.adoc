@@ -134,3 +134,7 @@ _The student understands the concepts of an API and synchronous communication in
 === Objectives and exercises
 _The student knows about the evolution of distributed systems and the drivers towards state-of-the-art implementation and deployment. She/he can explain the underlying concepts and theories and put it into practical context. No dedicated exercises for this module. Recap of basics: Spring Boot, Docker, configuration, persistence and messaging._
 
+=== Links
+
+* https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing
+
