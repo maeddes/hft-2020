@@ -138,3 +138,22 @@ _The student knows about the evolution of distributed systems and the drivers to
 
 * https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing
 
+== Module: 12-factor recap & Kubernetes introduction
+
+* Live coding walkthrough for 12-factor
+* Recap:
+  * Spring Boot Intro (start.spring.io & dependencies)
+  * Docker & Container 
+  * Persistence & JPA
+  * Configuration & Profiles
+  * API * REST
+* Introduction:
+  * Kubernetes (Pods, Deployments, Services)
+  
+=== Objectives and exercises
+_The student can relate the 12 factors to real world technogogies and list patterns and anti-patterns for each.  She/he can explain the underlying concepts and theories and put it into practical context. No dedicated exercises for this module. Recap of basics: Spring Boot, Docker, configuration, persistence and messaging._
+
+=== Links 
+
+* https://github.com/maeddes/microservice-communication-experiments
+
