@@ -1,0 +1,96 @@
+ 9904  SERVER_PORT=8088 mvn spring-boot:run
+ 9905  curl localhost:8088
+ 9906  curl -X POST localhost:8088/todos/WATCH
+ 9907  curl -X POST localhost:8088/todos/LISTEN
+ 9908  curl -s localhost:8088/todos | jq
+ 9909  docker ps .a
+ 9910  docker ps -a
+ 9911  docker rm fd5
+ 9912  docker run --name postgresdb -p 5432:5432 -e POSTGRES_PASSWORD=password -e POSTGRES_USER=matthias -e POSTGRES_DB=mydb -d --mount source=vol,target=/var/lib/postgresql/data postgres:latest
+ 9913  docker logs ba1
+ 9914  curl localhost:8088/todos
+ 9915  curl -s localhost:8080/todos
+ 9916  curl -X DELETE localhost:8080/todos/test
+ 9917  while true; do curl -s localhost:8080/todos | jq; sleep 1; echo; done
+ 9918  curl -X POST localhost:8080/todos/LISTEN
+ 9919  curl -X POST localhost:8080/todos/DANCE
+ 9920  mvn compile com.google.cloud.tools:jib-maven-plugin:2.6.0:dockerBuild -Dimage=maeddes/todo-springboot-jib:v1
+ 9921  cd microservice-communication-experiments
+ 9922  mvn spring-boot:build-image -Dspring-boot.build-image.imageName=maeddes/todo-ui-thymeleaf:v1
+ 9923  docker push maeddes/todo-springboot-jib:v1
+ 9924  docker push maeddes/todo-ui-thymeleaf:v1
+ 9925  curl -X POST localhost:8080/todos/L I S T
+ 9926  curl -X POST 'localhost:8080/todos/L I S T'
+ 9927  curl -X POST "localhost:8080/todos/L I S T"
+ 9928  ps -ef | grep java
+ 9929  kubectl delete deployment postgresql
+ 9930  kubectl delete deployment todobackend
+ 9931  kubectl create deployment todobackend --image=maeddes/todo-springboot-jib:v1
+ 9932  kubectl logs pod/todobackend-6f8db67df7-jzlwq
+ 9933  cat postgres.yml
+ 9934  kubectl logs pod/todobackend-79449c4554-gfr7h
+ 9935  kubectl get deployment
+ 9936  kubectl get pods
+ 9937  kubectl delete postgresql
+ 9938  kubectl delete svc postgresql
+ 9939  kubectl expose deployment todobackend --type=LoadBalancer --port=8080
+ 9940  kubectl get services
+ 9941  curl localhost:8080/todos
+ 9942  curl -X POST localhost:8080/todos/FIRST
+ 9943  curl -X POST localhost:8080/todos/SECOND
+ 9944  curl -X POST localhost:8080/todos/THREE
+ 9945  curl -X POST localhost:8080/todos/FOUR
+ 9946  kubectl scale deployment todobackend --replicas==4
+ 9947  kubectl scale deployment todobackend --replicas=4
+ 9948  kubectl scale deployment todobackend --replicas=2
+ 9949  while true; do curl -s localhost:8080/todos; sleep 1; echo; done
+ 9950  code .
+ 9951  kubectl get svc
+ 9952  kubectl logs pod/todobackend-66c497b788-vkz2n
+ 9953  cd ThymeleafUI
+ 9954  mvn spring-boot:run
+ 9955  kubectl scale deployment todobackend --replicas=5
+ 9956  curl -X POST localhost:8080/todos/NEW
+ 9957  kubectl exec -it fd5 psql -d mydb -U matthias pod/postgresdb-5888876d68-v72tj
+ 9958  kubectl exec -it fbash atthias pod/postgresdb-5888876d68-v72tj
+ 9959  kubectl exec -it bash atthias pod/postgresdb-5888876d68-v72tj
+ 9960  kubectl exec -it pod/postgresdb-5888876d68-v72tj bash
+ 9961  docker ps
+ 9962  docker images
+ 9963  kubectl scale deployment todobackend --replicas=1
+ 9964  kubectl create deployment todobmicronaut--image=maeddes/todo--micronaut:jib
+ 9965  kubectl create deployment todobmicronaut--image=maeddes/todoo-micronaut:jib
+ 9966  kubectl create deployment todobicronaut- -image=maeddes/todoo-micronaut:jib
+ 9967  kubectl create deployment todobicronaut-  --image=maeddes/todoo-micronaut:jib
+ 9968  clear
+ 9969  kubectl create deployment todobmcronaut-  --image=maeddes/todoo-micronaut:jib
+ 9970  kubectl create deployment todommicronaut --image=maeddes/todo-micronaut:jib
+ 9971  kubectl logs pod/todommicronaut-5f5d7b94fb-rlm5n
+ 9972  cd TodoListMicronautDataJPATomcatMaven
+ 9973  mvn compile com.google.cloud.tools:jib-maven-plugin:2.6.0:dockerBuild -Dimage=maeddes/todo-micronaut:jib
+ 9974  docker push maeddes/todo-micronaut:jib
+ 9975  kubectl delete deploy todommicronaut
+ 9976  kubectl delete svc todobackend
+ 9977  kubectl create namespace test
+ 9978  kubectl get namespaces
+ 9979  kubectl get all -n default
+ 9980  kubectl get all -n test
+ 9981  kubectl get all -n kube-system
+ 9982  kubens test
+ 9983  cd ..
+ 9984  ls
+ 9985  kubectl apply -f postgres.yml
+ 9986  kubectl create deployment todommcronaut --image=maeddes/todo-micronaut:jib
+ 9987  kubectl gget all
+ 9988  kubectl logs pod/todommcronaut-7d7dd9c5c9-tp7gb
+ 9989  kubectl edit deployment todobackend
+ 9990  kubectl edit deployment todommcronaut
+ 9991  kubectl logs pod/todommcronaut-6c9c7b856d-mzcb5
+ 9992  kubectl expose deployment todommicronaut --type=LoadBalancer --port=8080 --name=todobackend
+ 9993  kubectl expose deployment todommironaut --type=LoadBalancer --port=8080 --name=todobackend
+ 9994  kubectl expose deploy ttodommcronaut --type=LoaBaalancer --port=8080 --name=todobackend
+ 9995  kubectl expose deploy todommcronaut --type=LoaBaalancer --port=8080 --name=todobackend
+ 9996  exit
+ 9997  kubectl expose deploy todommcronaut --type=LoadBalancer --port=8080 --name=todobackend
+ 9998  kubectl get all
+ 9999  while true; do curl localhost:8080/todos; sleep 1; echo; done
