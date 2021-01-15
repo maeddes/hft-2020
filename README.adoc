@@ -157,3 +157,26 @@ _The student can relate the 12 factors to real world technogogies and list patte
 
 * https://github.com/maeddes/microservice-communication-experiments
 
+== Module: Kubernetes
+
+* Presentation: Cloud Platforms & Kubernetes
+* Recap:
+** Docker & Container 
+** API * REST
+* Kubernetes 
+** Platform History (Container basics -> mature platforms)
+** Shared responsibility and roles
+** Steps from app to running containers
+** Basic Artefacts
+*** Pod
+*** Deployment
+*** ReplicaSet
+*** Service
+  
+=== Objectives and exercises
+_The student understands the requirements and expectations towards cloud platforms and is able to list them. She/he can explain the advantages over standard container operation with Docker. The exercise is to take a sample Spring Boot application and walk through the steps to containerize and deploy to Kubernetes. The concepts of probes are familiar._
+
+=== Links 
+
+* https://github.com/maeddes/simplecode
+
