@@ -181,3 +181,8 @@ _The student understands the requirements and expectations towards cloud platfor
 
 * https://github.com/maeddes/simplecode
 
+=== Contact
+
+mail: maeddes (at) gmail.com (or HfT e-mail)
+twitter: @maeddes
+linkedin: https://www.linkedin.com/in/matthiashaeussler/
