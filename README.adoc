@@ -137,6 +137,7 @@ _The student knows about the evolution of distributed systems and the drivers to
 === Links
 
 * https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing
+* https://12factor.net/
 
 == Module: 12-factor recap & Kubernetes introduction
 
