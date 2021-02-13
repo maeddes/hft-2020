@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/maeddes/hft-2020)
+
 # hft-2020
 materials, links and sample code for cloud-native lecture, slides and recordings can be found in moodle.
 
