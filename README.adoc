@@ -179,10 +179,12 @@ _The student understands the requirements and expectations towards cloud platfor
 
 === Links 
 
-* https://github.com/maeddes/simplecode
+* https://cloud.google.com/kubernetes-engine/kubernetes-comic
+* https://katacoda.com/
+* https://labs.play-with-k8s.com/
 
 === Contact
 
-* mail: maeddes (at) gmail.com (or HfT e-mail)
+* mail: maeddes (at) gmail.com (or HSE e-mail)
 * twitter: @maeddes
 * linkedin: https://www.linkedin.com/in/matthiashaeussler/
